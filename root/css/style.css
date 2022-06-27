@@ -1,0 +1,94 @@
+.contenedorHeader{
+    display: flex;
+    justify-content: space-around;
+}
+
+.listaNav{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.seccionUno{
+    display: flex;
+
+}
+
+.articuloUno{
+    display: flex;
+    flex-direction: column;
+}
+
+.articuloDos{
+    display: flex;
+    flex-direction: column;
+}
+
+.seccionDos{
+    display: flex;
+}
+
+.divsList{
+    display: flex;
+    flex-direction: column;
+}
+
+.divElementoLista{
+    display: flex;
+}
+
+.seccionTres{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tarjeta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.divTarjetas{
+    display: flex;
+}
+
+.fotoRedonda{
+    width: 70px;
+}
+
+.footerSecUno{
+    display: flex;
+    justify-content: space-around;
+    background-color: #F3613C;
+}
+
+.footerSecDos{
+    display: flex;
+    justify-content: space-around;
+    background-color: #1E1E26;
+}
+
+.divFooter{
+    display: flex;
+}
+
+.articleFooterUno{
+    display: flex;
+    flex-direction: column;
+}
+
+.divIconos{
+    display: flex;
+}
+
+.listaNavFooter{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+}
+
+.divCopyright{
+    background-color: #1E1E26;
+}
