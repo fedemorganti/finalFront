@@ -1,28 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam:wght@500;700&display=swap');
+
+body {
+    font-family: "Be Vietnam";
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: 0 71px;
+}
+
 .contenedorHeader{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
+    margin: 75px 175px;
+}
+
+.logo {
+    height: 23px;
+}
+
+.button {
+    border-radius: 50px;
+    background-color: #F3603B;
+    color: white;
+    box-shadow: 0px 4px 7px rgb(0 0 0 / 25%);
+    border: 0px;
+    font-size: 13px;
+    height: 44px;
+    width: 134px;
+    cursor: pointer;
 }
 
 .listaNav{
     list-style-type: none;
     display: flex;
     justify-content: space-around;
-    
+    width: 382px;
+    padding: 0;
+    font-size: 13px;
+    color: #242E52
 }
 
-.seccionUno{
-    display: flex;
+.articulo-uno-titulo {
+    font-size: 3.625rem;
+    font-weight: 700px;
+    letter-spacing: -0.035em;
+    line-height: 65px;
+    color: #242E52;
+    margin: 0;
+}
 
+.articulo-uno-texto {
+    width:350px;
+}
+
+.seccion{
+    display: flex;
+    margin: 0 95px;
+    justify-content: space-between;
+    margin-bottom: 100px;
 }
 
 .articuloUno{
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
+    width: 440px;
+    height: 386px;
+    margin-top: 40px;
 }
 
 .articuloDos{
     display: flex;
     flex-direction: column;
+}
+
+.articulo-tres {
+    display: flex;
+    flex-direction: column;
+    width: 440px;
+    margin-top: 40px;
+    flex: 1;
+}
+
+.articulo-tres-titulo{
+    font-size: 36px;
+    line-height: 115%;
+    color: #242E52;
+}
+
+.articulo-tres-texto {
+    width: 337px;
+}
+
+.articulo-cuatro {
+    flex: 1;
 }
 
 .seccionDos{
