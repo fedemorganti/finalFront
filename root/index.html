@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,7 +13,7 @@
 
     <header>
         <div class="contenedorHeader">
-            <img src="./img/Logo.png" alt="Logo">
+            <img class="header-logo" src="./img/Logo.png" alt="Logo">
             <nav>
                 <ul class="listaNav">
                     <li>Pricing</li>
@@ -22,12 +23,11 @@
                     <li>Community</li>
                 </ul>
             </nav>
-        <button class="button">Get Started</button>    
+            <button class="button">Get Started</button>  
+            <object class="contenedorHeader-burger" data="./img/icon-hamburger.svg" type="image/svg+xml"></object>
         </div>
-    </header>    
-    
-    
-    
+    </header>
+
     <main>
         <section class="seccion">
 
@@ -53,7 +53,7 @@
 
 
 
-        <section class="seccion">
+        <section class="seccion-dos">
 
             <article class="articulo-tres">
                     <h2 class="articulo-tres-titulo">What's different about
@@ -69,30 +69,30 @@
             <article class="articulo-cuatro"> <!-- benja dice que es una lista ordenada pero a mi me da miedo intentar hacerla-->
                 <div class="divsLista">
                     <div class="divElementoLista">
-                        <img src="./img/Button1.png">
-                        <h5>Track company-wide progress</h5>
+                        <img class="articulo-cuatro-img" src="./img/Button1.png">
+                        <h4 class="articulo-cuatro-title">Track company-wide progress</h5>
                     </div>
-                    <div>
+                    <div class="articulo-cuatro-text">
                         <span>See how your day-to-day tasks fit into the wider vision. Go from tracking progress at the milestone level all the way done to the smallest of details. Never lose sight of the bigger picture again.</span>
                     </div>
                 </div>
             
                 <div class="divsLista">
                     <div class="divElementoLista">
-                        <img src="./img/Button2.png">
-                        <h5>Advance built-in reports</h5>
+                        <img class="articulo-cuatro-img" src="./img/Button2.png">
+                        <h4 class="articulo-cuatro-title">Advance built-in reports</h5>
                     </div>
-                    <div>
+                    <div class="articulo-cuatro-text">
                         <span>Set internal delivery estimates and track progress toward company goals. Our customisable dashboard helps you build out the reports you need to keep key stakeholders informed.</span>
                     </div>
                 </div>
 
                 <div class="divsLista">
                     <div class="divElementoLista">
-                        <img src="./img/Button3.png">
-                        <h5>Everything you need in one place</h5>
+                        <img class="articulo-cuatro-img" src="./img/Button3.png">
+                        <h4 class="articulo-cuatro-title">Everything you need in one place</h5>
                     </div>
-                    <div>
+                    <div class="articulo-cuatro-text">
                         <span>Stop jumping from one service to another to communicate, store files, track tasks and share documents. Manage offers an all-in-one team productivity solution.</span>
                     </div>
                 </div>
@@ -107,33 +107,32 @@
         <section class="seccionTres">
 
 
-            <h2>What they've said</h2>
+            <h2 class="seccion-tres-titulo">What they've said</h2>
 
             <div class="divTarjetas">
                 <article class="tarjeta">
                     <img class="fotoRedonda" src="./img/avatar-anisha 1.png" alt="">
-                    <h6>Ali Bravo</h6>
-                    <span>“Manage has supercharged our team´s workflow. The ability to maintain visibility on larger milestones at all times keeps everyone motivated.”</span>
+                    <h4 class="tarjeta-titulo">Ali Bravo</h4>
+                    <span class="tarjeta-texto">“Manage has supercharged our team´s workflow. The ability to maintain visibility on larger milestones at all times keeps everyone motivated.”</span>
                 </article>
 
 
 
-                <article class="tarjeta">
+                <article class="tarjeta-medio">
                     <img class="fotoRedonda" src="./img/avatar-ali 1.png" alt="">
-                    <h6>Ali Bravo</h6>
-                    <span>“We have been able to cancel so many other subscriptions since using manage. There ir no more cross-channel confusion and everyone is much more focused.”</span>
+                    <h4 class="tarjeta-titulo">Ali Bravo</h4>
+                    <span class="tarjeta-texto-medio">“We have been able to cancel so many other subscriptions since using manage. There ir no more cross-channel confusion and everyone is much more focused.”</span>
                 </article>
 
 
 
                 <article class="tarjeta">
                     <img class="fotoRedonda" src="./img/avatar-richard 1.png" alt="">
-                    <h6>Ali Bravo</h6>
-                    <span>“Manage allows us to provide structure and process. It keeps us organized and focused. I can´t stop recommending them to everyone i talk to!”</span>
+                    <h4 class="tarjeta-titulo">Ali Bravo</h4>
+                    <span class="tarjeta-texto">“Manage allows us to provide structure and process. It keeps us organized and focused. I can´t stop recommending them to everyone i talk to!”</span>
                 </article>
             </div>    
-
-            <button>Get Started</button>
+            <button class="button">Get Started</button>
 
 
         </section>
@@ -147,10 +146,10 @@
 
         <section class="footerSecUno">
 
-            <h2>Simplify hoy your team
+            <h2 class="footer-titulo">Simplify hoy your team
                 words today.</h2>
 
-            <button>Get Started</button>
+            <button class="button-inverted">Get Started</button>
 
         </section>
 
@@ -158,58 +157,63 @@
     
         <section class="footerSecDos">
 
-            <div class="divFooter"> <!--contiene todo menos el copyright que va abajo-->
 
                 <article class="articleFooterUno">
                    
                     <img src="./img/LogoFooter.png" alt="">
 
                     <div class="divIconos">
-
+                        <object data="./img/icon-facebook.svg" type="image/svg+xml"></object>
+                        <object data="./img/icon-instagram.svg" type="image/svg+xml"></object>
+                        <object data="./img/icon-pinterest.svg" type="image/svg+xml"></object>
+                        <object data="./img/icon-twitter.svg" type="image/svg+xml"></object>
+                        <object data="./img/icon-youtube.svg" type="image/svg+xml"></object>
                     </div>
                 </article>
 
 
+                <nav class="listaNavFooter-container">
+                    <article>
+    
+                        <nav class="listaNavFooter">
+                            <ul class="listaUlFooter">
+                                <li>Home</li>
+                                <li>Pricing</li>
+                                <li>Products</li>
+                                <li>About Us</li>
+                            </ul>
+                        </nav>    
+    
+                    </article>
+    
+    
+    
+                    <article>
+                        <nav class="listaNavFooter">
+                            <ul class="listaUlFooter">
+                                <li>Careers</li>
+                                <li>Community</li>
+                                <li>Privacy Policy</li>
+                            </ul>
+                        </nav>  
+                    </article>
+                </nav>
 
-                <article>
-
-                    <nav>
-                        <ul class="listaNavFooter">
-                            <li>Home</li>
-                            <li>Pricing</li>
-                            <li>Products</li>
-                            <li>About Us</li>
-                        </ul>
-                    </nav>    
-
-                </article>
 
 
-
-                <article>
-                    <nav>
-                        <ul class="listaNavFooter">
-                            <li>Careers</li>
-                            <li>Community</li>
-                            <li>Privacy Policy</li>
-                        </ul>
-                    </nav>  
-                </article>
-
-
-
-                <article>
+                <article class="footer-article-ultimo">
                     <!--va el fomrulario que todavia no sabemos hacer porque nashe-->
+                    <form>
+                        <input class="footer-input" placeholder="Update in your box..."/>
+                        <button class="footer-button">Go</button>
+                    </form>
+                    <span class="copyright">Copyright 2020. All Rights Reserved</span>
                 </article>
 
-            </div>
 
             
             
         </section>
-        <div class="divCopyright">
-            <span>Copyright 2020. All Rights Reserved</span>
-        </div>
     </footer>
 
 </body>
